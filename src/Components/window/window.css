@@ -1,0 +1,68 @@
+.window-wrap{
+    background-color: #ffffff;
+    position: absolute;
+    animation: show 200ms linear;
+    overflow: hidden;
+}
+.window-wrap.framed{
+    border: var(--startbar-blue) 2px solid;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.window-frame-head{
+    height: 30px;
+    background: linear-gradient(to bottom,#4387e1 5%,#2753d5 95%,#2145ba 100%);
+    color:#ffffff;
+    font-size: 14px;
+    line-height: 30px;
+    user-select: none;
+}
+.window-frame-resize{
+    position: absolute;
+}
+.window-frame-resize.top{
+    top:0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    cursor: ns-resize;
+}
+.window-frame-resize.bottom{
+    bottom:0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    cursor: ns-resize;
+}
+.window-frame-resize.left{
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 2px;
+    cursor: ew-resize;
+}
+.window-frame-resize.right{
+    top:0;
+    right: 0;
+    height: 100%;
+    width: 2px;
+    cursor: ew-resize;
+}
+.window-frame-resize.top-right{
+    right: 0;
+    top:0;
+    width: 4px;
+    height: 4px;
+    cursor: nesw-resize;
+}
+.window-frame-head>span{
+    padding: 0 10px;
+}
+@keyframes show {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+}

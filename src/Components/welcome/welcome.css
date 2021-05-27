@@ -1,0 +1,27 @@
+.welcome-wrap{
+    width:100vw;
+    height: 100vh;
+    user-select: none;
+    cursor: progress;
+}
+.welcome-block-dark{
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--welcome-blue-dark);
+}
+.welcome-block-light{
+    background-color: var(--welcome-blue);
+    height: calc(70vh - 10px);
+    line-height: calc(70vh - 10px);
+    font-size: 120px;
+    color: #ffffff;
+    font-style: italic;
+    text-align: right;
+    padding-right: 25vw;
+    text-shadow: 5px 5px 2px var(--welcome-blue-dark);
+}
+.welcome-line{
+    height: 5px;
+    width: 100vw;
+    background: linear-gradient(to right, var(--welcome-blue) 10%,#8bb5fe 30%, var(--welcome-blue) 100%);
+}

@@ -1,0 +1,25 @@
+.desk-menu-ul{
+    list-style: none;
+    margin: 0;
+    padding: 6px 0;
+    border:1px solid #cccccc;
+    box-shadow: 3px 3px 10px #000000;
+}
+.desk-menu-ul>li:not(.desk-menu-divide){
+    padding:0 15px;
+    user-select: none;
+}
+.desk-menu-ul>li:not(.desk-menu-divide):hover{
+    background-color: #2e5ebc;
+}
+.desk-menu-ul>li:not(.desk-menu-divide):not(.disabled):hover{
+    color: #ffffff;
+}
+.desk-menu-ul>li.desk-menu-divide{
+    height: 1px;
+    background-color: #cccccc;
+    margin:2px 5px;
+}
+.desk-menu-ul>li.disabled{
+    color: #a3a3a3;
+}

@@ -1,0 +1,10 @@
+.desk-wrap{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--startbar-blue-light);
+    background-image: url("../../Assets/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,18 @@
+.blue-screen-wrap{
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.blue-screen{
+    width: 800px;
+    height: 600px;
+    background-color: #0b0073;
+    font-family: "Lucida Console","Consolas","Lucida Grande",sans-serif;
+}
+.blue-screen>p{
+    padding: 10px;
+}

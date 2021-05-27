@@ -1,0 +1,32 @@
+.start-bar{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background: linear-gradient(to bottom,#2f5ccd 3%,#4387e1 5%,#2753d5 95%,#2145ba 100%);
+}
+#start-button{
+    background:linear-gradient(to top,var(--main-green-dark),var(--main-green),var(--main-green-light),var(--main-green)) ;
+    margin-bottom: 2px;
+    font-size: 20px;
+    height: 38px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-style: italic;
+    text-indent: 2px;
+    text-shadow: 1px 1px 2px #000000;
+    user-select: none;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#start-button:hover{
+     background:linear-gradient(to bottom,var(--main-green-dark),var(--main-green),var(--main-green-light),var(--main-green)) ;
+}
+#start-button > img{
+    height: 30px;
+}

@@ -1,0 +1,28 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height: 100%;
+  font-family: Arial,"Songti SC", sans-serif;
+}
+:root{
+  --welcome-blue-dark:#0c2990;
+  --welcome-blue:#5272d5;
+  --loading-blue:#282fbd;
+  --startbar-blue:#2560d6;
+  --startbar-blue-light:#1b7be6;
+  --main-green:#3e9e45;
+  --main-green-dark: #17741c;
+  --main-green-light:#36a13a;
+  --window-background:#e9e6d3;
+  --window-body:#f5f3ef;
+  --window-highlight:#f3b951;
+  --folder-yellow:#fdfc91;
+}
+#root,.App{
+  width:100%;
+  height: 100%;
+}
+.App{
+  position: relative;
+}

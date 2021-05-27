@@ -1,0 +1,23 @@
+.shortcut-wrap{
+    text-align: center;
+    padding-top: 4px;
+}
+.shortcut-wrap > img{
+    max-width: 60px;
+    max-height: 70px;
+}
+.shortcut-wrap.active > img{
+    filter: grayscale(40%);
+}
+.shortcut-wrap.active>p{
+    background-color: #2e5ebc;
+    border: 1px dotted #c68b36;
+}
+.shortcut-wrap > p{
+    margin: 0 auto;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 12px;
+    width: fit-content;
+    border: 1px dotted transparent;
+}
