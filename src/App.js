@@ -7,7 +7,6 @@ import {IsCompatible} from "./util"
 import Desk from "./Components/desk/desk";
 class App extends React.Component{
     constructor(props) {
-        console.log(navigator.platform);
         super(props);
         this.state = {
             loading:true,
@@ -79,5 +78,4 @@ class App extends React.Component{
         );
     }
 }
-
 export default App;

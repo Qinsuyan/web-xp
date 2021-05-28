@@ -1,14 +1,14 @@
 import './loading.css'
-import windowsIcon  from '../../Assets/windows.svg'
+import windowsIcon  from '../../Assets/logo.svg'
 function Loading(){
     return (
         <div className="loading-wrap">
             <div className="loading-company">
-                <span>Microsoft</span>
+                <span>Gouyiqin</span>
                 <img src={windowsIcon} alt="windows"/>
             </div>
             <div className="loading-system">
-                <span>Windows</span>
+                <span>.com</span>
             </div>
             <div className="loading-bar-wrap">
                 <div className="loading-bar">

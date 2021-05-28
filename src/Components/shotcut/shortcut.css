@@ -5,9 +5,10 @@
 .shortcut-wrap > img{
     max-width: 60px;
     max-height: 70px;
+    filter:drop-shadow(1px 0px 2px #000000)
 }
 .shortcut-wrap.active > img{
-    filter: grayscale(40%);
+    filter: drop-shadow(1px 0px 2px #000000) grayscale(40%);
 }
 .shortcut-wrap.active>p{
     background-color: #2e5ebc;

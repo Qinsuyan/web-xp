@@ -1,0 +1,9 @@
+.browser-security-tip-wrap{
+    background-color: var(--window-background);
+    height: 120px;
+    text-align: center;
+}
+.browser-security-tip-wrap>p{
+    margin: 0;
+    padding: 20px;
+}

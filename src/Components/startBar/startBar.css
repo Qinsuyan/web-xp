@@ -5,6 +5,9 @@
     right: 0;
     height: 40px;
     background: linear-gradient(to bottom,#2f5ccd 3%,#4387e1 5%,#2753d5 95%,#2145ba 100%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 #start-button{
     background:linear-gradient(to top,var(--main-green-dark),var(--main-green),var(--main-green-light),var(--main-green)) ;
@@ -29,4 +32,33 @@
 }
 #start-button > img{
     height: 30px;
+}
+.start-bar-clock{
+    font-size: 12px;
+    color: #ffffff;
+    position: absolute;
+    right: 10px;
+}
+.start-bar-task{
+    margin: 0 2px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 2px;
+    border: #2652bc 1px solid;
+    color: #ffffff;
+    user-select: none;
+    padding: 0 10px;
+}
+.start-bar-task.top{
+    background-color: #1a50b8;
+}
+.start-bar-task:hover{
+    background-color: #326ee9;
+}
+.start-bar-task>img{
+    height: 20px;
+    color: #ffffff;
+    filter: drop-shadow(1px 0px 1px #10235e)
 }

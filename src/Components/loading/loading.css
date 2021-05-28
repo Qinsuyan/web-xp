@@ -20,11 +20,12 @@
     position: relative;
 }
 .loading-system > span:after{
-    content: "xp";
+    content: "叉劈";
     position: absolute;
+    width: fit-content;
     top:-20px;
     color: #f5662c;
-    font-size: 90px;
+    font-size: 60px;
 }
 .loading-bar-wrap{
     border: 2px #ffffff solid;
